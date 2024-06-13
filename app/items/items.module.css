@@ -1,0 +1,79 @@
+.main{
+    background: #EDEDED;
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+.itemsContainer{
+    margin: auto;
+    width: 80%;
+    background:#fafafa;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    max-width: 1200px;
+
+}
+.itemContainer{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+.itemInfo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+.item{
+    border-bottom: thin solid #eee;
+    padding: 2rem 1rem;
+
+}
+.itemName{
+    color: #333;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin: 0;
+
+}
+.itemPrice{
+    color: #333;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 0;
+
+}
+.itemPriceContainer{
+    margin: 0.5rem 0;
+}
+.itemInstallments{
+    color: #333;
+    font-size: 0.9rem;
+}
+
+.itemFreeShipping{
+    font-size: 0.8rem;
+    color: #00a650;
+    font-weight: 600;
+}
+.itemInstallmentsSamePrice{
+    color: #00a650;
+    font-size: 0.9rem;
+}
+.itemHighlight{
+    color: #fff;
+    background: #FF7733;
+    width: fit-content;
+    font-weight: 500;
+    padding: 0.2rem;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    font-size: 0.8rem;
+}
