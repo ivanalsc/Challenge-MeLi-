@@ -8,6 +8,7 @@ export default async function ItemsPage({searchParams}) {
 
     const {results} = await fetch(`https://api.mercadolibre.com/sites/MLA/search?q=${searchParams.search}&limit=8`).then( res => res.json())
     
+
     return (
     <>
     <Header />
@@ -24,7 +25,8 @@ export default async function ItemsPage({searchParams}) {
                             <div className={styles.itemInfo}>
                             
                                 <span>
-                            {article.tags.includes('best_seller_candidate') === true ? <p className={styles.itemHighlight}>MÁS VENDIDO</p> : <p></p>}
+  
+                            {article.tags?.includes('best_seller_candidate') === true ? <p className={styles.itemHighlight}>MÁS VENDIDO</p> : <p></p>}
                             </span>
                                 <p className={styles.itemName}>{article.title}</p>
                                     <div className={styles.itemPriceContainer}>
