@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+## Meli Challenge
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The challenge that was circulating proposed to recreate the MeLi search bar and consequently the search results page by obtaining the data from an API.
+I decided to extend it and make, in addition to what was proposed, the product page, replicating it, modifying some details and proposing a new functionality.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The new functionality consists in the possibility to see a summarized version of the product page.
+What would this be useful for?
+Currently the product page has a lot of information, which, although necessary, can overwhelm the user generating discomfort and resulting in the abandonment of the site.
+Being able to see a summarized version of the product information would allow to have the most important data, hiding secondary or less important data, allowing to clean up the interface a little, making it easier to read, especially thinking of people with some kind of intellectual condition, such as ADHD, as well as people of advanced ages.
+In the following demo you can see an approximation of this functionality. You can also search in the bar to see different products.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Demo: https://challenge-me-li.vercel.app/items/MLA1364062753
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+🇦🇷 El challenge que circulaba proponía recrear la barra de búsqueda de MeLi y consecuentemente la página de resultados de búsqueda obteniendo los datos desde una API.
+Yo decidí extenderlo y realizar, además de lo propuesto, la página de producto, replicando, modificando algunos detalles y proponiendo una nueva funcionalidad.
 
-## Learn More
+La nueva funcionalidad consiste en la posibilidad de ver una versión resumida de la página de producto.
+¿Para qué serviría esto?
+Actualmente la página de producto cuenta con mucha información, que, si bien es necesaria, puede abrumar a la persona usuaria generando incomodidad y resultando en el abandono del sitio.
+Poder ver una versión resumida de la infomación del producto permitiría contar con los datos más importantes, ocultando datos secundarios o menos importantes, permitiendo limpiar un poco la interfaz, facilitando así su lectura, sobretodo pensando en personas con algún tipo de condición intelectual, como puede ser TDAH, así como en personas de edades avanzadas.
+En la siguiente demo se puede ver una aproximación a dicha funcionalidad. Se puede también realizar búsquedas en la barra para ver distintos productos.
 
-To learn more about Next.js, take a look at the following resources:
+Demo: https://challenge-me-li.vercel.app/items/MLA1364062753
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
