@@ -2,7 +2,7 @@
 ## Meli Challenge
 
 
-The challenge that was circulating proposed to recreate the MeLi search bar and consequently the search results page by obtaining the data from an API.
+The challenge proposed to recreate the MeLi search bar and consequently the search results page by obtaining the data from an API.
 I decided to extend it and make, in addition to what was proposed, the product page, replicating it, modifying some details and proposing a new functionality.
 
 The new functionality consists in the possibility to see a summarized version of the product page.

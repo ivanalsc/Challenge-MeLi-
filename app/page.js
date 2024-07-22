@@ -7,7 +7,6 @@ import Shelf from './components/Shelf'
 export default async function Home() {
 
   const {results} = await fetch(`https://api.mercadolibre.com/sites/MLA/search?q=samsung}&limit=4`).then( res => res.json())
-console.log(results)
   return (
     <>
     <Header />
