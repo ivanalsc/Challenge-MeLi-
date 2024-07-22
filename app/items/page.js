@@ -8,7 +8,7 @@ export default async function ItemsPage({searchParams}) {
 
     const {results} = await fetch(`https://api.mercadolibre.com/sites/MLA/search?q=${searchParams.search}&limit=8`).then( res => res.json())
     
-
+console.log("Acá", results)
     return (
     <>
     <Header />
@@ -33,7 +33,7 @@ export default async function ItemsPage({searchParams}) {
                                     <p className={styles.itemPrice}>{Number(article.price).toLocaleString('es-AR', {style: 'currency', currency: article.currency_id}).slice(0, -3)}</p>
                                 
                                     <span className={styles.itemInstallments}>
-                                    { article.installments !== null && article.installments.rate !== 0 ? `en ${article.installments.quantity}x ${Number(article.installments.amount).toLocaleString('es-AR', {style: 'currency', currency: article.currency_id}).slice(0, -3)}` : ''}
+                                    { article.installments !== null && article.installments?.rate !== 0 ? `en ${article.installments?.quantity}x ${Number(article.installments?.amount).toLocaleString('es-AR', {style: 'currency', currency: article.currency_id}).slice(0, -3)}` : ''}
                                     </span> 
                                     <span className={styles.itemInstallmentsSamePrice}> 
                                     { article.installments.rate === 0  ? `Mismo precio en ${article.installments.quantity} cuotas de ${Number(article.installments.amount).toLocaleString('es-AR', {style: 'currency', currency: article.currency_id}).slice(0, -3)}` : ''}
